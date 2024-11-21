@@ -66,7 +66,7 @@
                         </div>
                         <div
                             class="col-md-6 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 align-items-center">
-                            <p class="mb-0 font-500"><a
+                            <p class="mb-0 font-500"><a href="top-nav-pages/location-update.php"
                                     class="text-capitalize no-decoration text-light btn shadow-none border-0"><i
                                         class="bi bi-geo-alt me-2"></i>update location</a></p>
                             <div class="dropdown">
@@ -76,9 +76,9 @@
                                 </button>
                                 <ul class="dropdown-menu border-0"
                                     style="border-radius: 0px; background-color: bisque !important;">
-                                    <li><a class="dropdown-item text-dark" href="#">English</a></li>
-                                    <li><a class="dropdown-item text-dark" href="#">Hindi</a></li>
-                                    <li><a class="dropdown-item text-dark" href="#">Bengali</a></li>
+                                    <li><a class="dropdown-item text-dark" href="top-nav-pages/english-switch.php">English</a></li>
+                                    <li><a class="dropdown-item text-dark" href="top-nav-pages/hindi-switch.php">Hindi</a></li>
+                                    <li><a class="dropdown-item text-dark" href="top-nav-pages/bengali-switch.php">Bengali</a></li>
                                 </ul>
                             </div>
                         </div>
