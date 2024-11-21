@@ -102,10 +102,17 @@
                         style="border-radius: 0px;" id="basic-addon2"><i class="bi bi-search text-light"></i></button>
                 </form>
                 <div class="d-flex justify-content-center align-items-center">
-                    <p class="mb-0 font-500"><button type="button"
-                            class="text-capitalize no-decoration text-light btn shadow-none border-0"><i
-                                class="bi bi-person-circle me-2"></i>login<i
-                                class="bi bi-chevron-down ms-2"></i></button></p>
+                    <div class="dropdown">
+                        <button class="btn text-capitalize text-light shadow-none border-0" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Login<i class="bi bi-translate ms-2"></i>
+                        </button>
+                        <ul class="dropdown-menu border-0"
+                            style="border-radius: 0px; background-color: bisque !important;">
+                            <li><a class="dropdown-item text-dark" href="mid-nav-pages/login/admin-login.php">Admin Login</a></li>
+                            <li><a class="dropdown-item text-dark" href="mid-nav-pages/login/user-login.php">User Login</a></li>
+                        </ul>
+                    </div>
                     <p class="mb-0 font-500"><button type="button"
                             class="text-capitalize no-decoration text-light btn shadow-none position-relative border-0"><i
                                 class="bi bi-cart-plus me-2"></i>my cart<span
@@ -1691,7 +1698,7 @@
 
 
 <script>
-    $(document).ready(function () {
+    $(document).ready(function() {
 
         $("#jqueryui-menu").menu();
 
@@ -1735,8 +1742,7 @@
             slidesToShow: 5,
             slidesToScroll: 2,
             arrows: false,
-            responsive: [
-                {
+            responsive: [{
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 4,
@@ -1767,8 +1773,7 @@
             slidesToShow: 5,
             slidesToScroll: 2,
             arrows: true,
-            responsive: [
-                {
+            responsive: [{
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 4,
@@ -1801,7 +1806,7 @@
             'color': '#F6720E'
         });
 
-        $('.categories-items-list button').on('click', function () {
+        $('.categories-items-list button').on('click', function() {
             $(this).css({
                 'color': '#F6720E !important'
             });
@@ -1818,14 +1823,14 @@
         $('#content .responsive-slickSlider-withcategories .slick-prev').css({
             'background-color': '#F6720E'
         });
-        $('.featuring-functions').each(function () {
+        $('.featuring-functions').each(function() {
             $(this).find('button').first().css({
                 'background-color': '#f6720e',
                 'color': '#fff'
             });
         });
 
-        $('.featuring-functions').each(function () {
+        $('.featuring-functions').each(function() {
             $(this).find('button').first().siblings().css({
                 'background-color': '#fff',
                 'color': '#111'
@@ -1833,7 +1838,7 @@
         });
 
 
-        $('.featuring-functions button').on('click', function () {
+        $('.featuring-functions button').on('click', function() {
             $(this).css({
                 'background-color': '#f6720e',
                 'color': '#fff'
@@ -1863,8 +1868,7 @@
             slidesToShow: 5,
             slidesToScroll: 2,
             arrows: true,
-            responsive: [
-                {
+            responsive: [{
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 4,
@@ -1901,11 +1905,11 @@
             },
         });
 
-        $('#special-products .special-products-items .card').mouseenter(function () {
+        $('#special-products .special-products-items .card').mouseenter(function() {
             $(this).find('.card-body').css({
                 'opacity': '1'
             });
-        }).mouseleave(function () {
+        }).mouseleave(function() {
             $(this).find('.card-body').css({
                 'opacity': '0'
             });
@@ -1917,8 +1921,7 @@
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
-            responsive: [
-                {
+            responsive: [{
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 3,
@@ -1952,8 +1955,7 @@
             autoplay: {
                 disableOnInteraction: false,
             },
-            responsive: [
-                {
+            responsive: [{
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 6,
@@ -1984,12 +1986,12 @@
             'height': '2px'
         });
 
-        $('#footer .col').on('mouseenter', function () {
+        $('#footer .col').on('mouseenter', function() {
             $(this).find('.name-underLine').css({
                 'width': '35%',
                 'transition': '0.5s ease-in-out'
             });
-        }).mouseleave(function () {
+        }).mouseleave(function() {
             $(this).find('.name-underLine').css({
                 'width': '20%',
                 'transition': '0.5s ease-in-out'
@@ -1998,7 +2000,7 @@
 
         let navBUTTON = $('.navbar-toggler').find('.fa-plus');
 
-        navBUTTON.on('click', function () {
+        navBUTTON.on('click', function() {
             if ($(this).hasClass('fa-plus')) {
                 $(this).removeClass('fa-plus').addClass('fa-minus');
             } else {
@@ -2006,7 +2008,7 @@
             }
         });
 
-        $('#main-body .navbar-toggler').click(function () {
+        $('#main-body .navbar-toggler').click(function() {
             if ($('#cat-egories').is(':visible')) {
                 $('#cat-egories').hide();
             } else {
@@ -2020,7 +2022,7 @@
             $('#categories').hide();
         }
 
-        $('#main-body .navbar-toggler').on('click', function () {
+        $('#main-body .navbar-toggler').on('click', function() {
             $('#categories').show();
         });
 
