@@ -1,2 +1,0 @@
-# Flipmart
-E-commerce site
