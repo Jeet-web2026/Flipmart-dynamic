@@ -95,7 +95,7 @@
             <div class="d-lg-flex justify-content-between align-items-center">
                 <a href="" class="text-light fs-1 no-decoration montserrat-font font-500">Flip<span
                         style="color: #ffd400;">Mart</span><i class="fa-brands fa-opencart ms-2 text-warning"></i></a>
-                <form class="input-group w-50 mb-lg-0 mb-2">
+                <form class="input-group w-50 mb-lg-0 mb-2" action="search/search-result.php" method="POST">
                     <input type="text" class="form-control shadow-none border-0" style="border-radius: 0px;"
                         placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
                     <button type="submit" class="input-group-text bg-dark shadow-none border-0"
