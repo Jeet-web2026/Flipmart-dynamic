@@ -37,7 +37,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- custom css link -->
-    <link rel="stylesheet" href="styling/landing-page.css">
+    <link rel="stylesheet" href="/Flipmart/styling/landing-page.css">
 
     <!-- swiper js css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -66,7 +66,7 @@
                         </div>
                         <div
                             class="col-md-6 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 align-items-center">
-                            <p class="mb-0 font-500"><a href="top-nav-pages/location-update.php"
+                            <p class="mb-0 font-500"><a href="/Flipmart/top-nav-pages/location-update.php"
                                     class="text-capitalize no-decoration text-light btn shadow-none border-0"><i
                                         class="bi bi-geo-alt me-2"></i>update location</a></p>
                             <div class="dropdown">
@@ -76,9 +76,9 @@
                                 </button>
                                 <ul class="dropdown-menu border-0"
                                     style="border-radius: 0px; background-color: bisque !important;">
-                                    <li><a class="dropdown-item text-dark" href="top-nav-pages/english-switch.php">English</a></li>
-                                    <li><a class="dropdown-item text-dark" href="top-nav-pages/hindi-switch.php">Hindi</a></li>
-                                    <li><a class="dropdown-item text-dark" href="top-nav-pages/bengali-switch.php">Bengali</a></li>
+                                    <li><a class="dropdown-item text-dark" href="/Flipmart/top-nav-pages/english-switch.php">English</a></li>
+                                    <li><a class="dropdown-item text-dark" href="/Flipmart/top-nav-pages/hindi-switch.php">Hindi</a></li>
+                                    <li><a class="dropdown-item text-dark" href="/Flipmart/top-nav-pages/bengali-switch.php">Bengali</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
             <div class="d-lg-flex justify-content-between align-items-center">
                 <a href="" class="text-light fs-1 no-decoration montserrat-font font-500">Flip<span
                         style="color: #ffd400;">Mart</span><i class="fa-brands fa-opencart ms-2 text-warning"></i></a>
-                <form class="input-group w-50 mb-lg-0 mb-2" action="search/search-result.php" method="POST">
+                <form class="input-group w-50 mb-lg-0 mb-2" action="/Flipmart/search/search-result.php" method="POST">
                     <input type="text" class="form-control shadow-none border-0" style="border-radius: 0px;"
                         placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
                     <button type="submit" class="input-group-text bg-dark shadow-none border-0"
@@ -109,11 +109,11 @@
                         </button>
                         <ul class="dropdown-menu border-0"
                             style="border-radius: 0px; background-color: bisque !important;">
-                            <li><a class="dropdown-item text-dark" href="mid-nav-pages/login/admin-login.php">Admin Login</a></li>
-                            <li><a class="dropdown-item text-dark" href="mid-nav-pages/login/user-login.php">User Login</a></li>
+                            <li><a class="dropdown-item text-dark" href="/Flipmart/mid-nav-pages/login/admin-login.php">Admin Login</a></li>
+                            <li><a class="dropdown-item text-dark" href="/Flipmart/mid-nav-pages/login/user-login.php">User Login</a></li>
                         </ul>
                     </div>
-                    <p class="mb-0 font-500"><a href="mid-nav-pages/user-cart-wishlist/user-cart.php"" type=" button"
+                    <p class="mb-0 font-500"><a href="/Flipmart/mid-nav-pages/user-cart-wishlist/user-cart.php"" type=" button"
                             class="text-capitalize no-decoration text-light btn shadow-none position-relative border-0"><i
                                 class="bi bi-cart-plus me-2"></i>my cart<span
                                 class="position-absolute d-none d-lg-inline top-0 start-100 translate-middle badge rounded-circle px-2 pt-2 pb-1"
@@ -138,22 +138,22 @@
                         <a class="nav-link text-light text-uppercase" href="/Flipmart/">Home</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="navigation-pages/fashion-all.php">Fashion</a>
+                        <a class="nav-link text-light text-uppercase" href="/Flipmart/navigation-pages/fashion-all.php">Fashion</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="navigation-pages/mens-all.php">Men</a>
+                        <a class="nav-link text-light text-uppercase" href="/Flipmart/navigation-pages/mens-all.php">Men</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="navigation-pages/women-all.php">Women</a>
+                        <a class="nav-link text-light text-uppercase" href="/Flipmart/navigation-pages/women-all.php">Women</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="navigation-pages/kids-all.php">Kids</a>
+                        <a class="nav-link text-light text-uppercase" href="/Flipmart/navigation-pages/kids-all.php">Kids</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="navigation-pages/accessories-all.php">Accessories</a>
+                        <a class="nav-link text-light text-uppercase" href="/Flipmart/navigation-pages/accessories-all.php">Accessories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light text-uppercase" href="navigation-pages/blogs.php">Blogs</a>
+                        <a class="nav-link text-light text-uppercase" href="/Flipmart/navigation-pages/blogs.php">Blogs</a>
                     </li>
                 </ul>
                 <ul class="mb-lg-0 ps-0">
