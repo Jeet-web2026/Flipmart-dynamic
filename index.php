@@ -66,9 +66,9 @@
                         </div>
                         <div
                             class="col-md-6 d-flex justify-content-lg-end justify-content-center mt-3 mt-lg-0 align-items-center">
-                            <p class="mb-0 font-500"><button
+                            <p class="mb-0 font-500"><a
                                     class="text-capitalize no-decoration text-light btn shadow-none border-0"><i
-                                        class="bi bi-geo-alt me-2"></i>update location</button></p>
+                                        class="bi bi-geo-alt me-2"></i>update location</a></p>
                             <div class="dropdown">
                                 <button class="btn text-capitalize text-light shadow-none border-0" type="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
