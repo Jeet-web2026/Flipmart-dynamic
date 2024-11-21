@@ -105,7 +105,7 @@
                     <div class="dropdown">
                         <button class="btn text-capitalize text-light shadow-none border-0" type="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Login<i class="bi bi-translate ms-2"></i>
+                            <i class="bi bi-person-circle me-3"></i>Login<i class="bi bi-chevron-down ms-2"></i>
                         </button>
                         <ul class="dropdown-menu border-0"
                             style="border-radius: 0px; background-color: bisque !important;">
@@ -113,11 +113,11 @@
                             <li><a class="dropdown-item text-dark" href="mid-nav-pages/login/user-login.php">User Login</a></li>
                         </ul>
                     </div>
-                    <p class="mb-0 font-500"><button type="button"
+                    <p class="mb-0 font-500"><a href="mid-nav-pages/user-cart-wishlist/user-cart.php"" type="button"
                             class="text-capitalize no-decoration text-light btn shadow-none position-relative border-0"><i
                                 class="bi bi-cart-plus me-2"></i>my cart<span
                                 class="position-absolute d-none d-lg-inline top-0 start-100 translate-middle badge rounded-circle px-2 pt-2 pb-1"
-                                style="background-color: #51463E;"><span>1</span></span></button></p>
+                                style="background-color: #51463E;"><span>1</span></span></a></p>
                 </div>
             </div>
         </div>
@@ -135,32 +135,32 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item me-3">
-                        <a class="nav-link text-light text-uppercase" href="#">Home</a>
+                        <a class="nav-link text-light text-uppercase" href="/Flipmart/">Home</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="#">Fashion</a>
+                        <a class="nav-link text-light text-uppercase" href="navigation-pages/fashion-all.php">Fashion</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="#">Men</a>
+                        <a class="nav-link text-light text-uppercase" href="navigation-pages/mens-all.php">Men</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="#">Women</a>
+                        <a class="nav-link text-light text-uppercase" href="navigation-pages/women-all.php">Women</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="#">Kids</a>
+                        <a class="nav-link text-light text-uppercase" href="navigation-pages/kids-all.php">Kids</a>
                     </li>
                     <li class="nav-item me-2">
-                        <a class="nav-link text-light text-uppercase" href="#">Accessories</a>
+                        <a class="nav-link text-light text-uppercase" href="navigation-pages/accessories-all.php">Accessories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light text-uppercase" href="#">Blogs</a>
+                        <a class="nav-link text-light text-uppercase" href="navigation-pages/blogs.php">Blogs</a>
                     </li>
                 </ul>
                 <ul class="mb-lg-0 ps-0">
                     <li class="nav-item">
-                        <a class="nav-link text-light text-uppercase" href="#"><i
+                        <a class="nav-link text-light text-uppercase" href="tel:+919163715179"><i
                                 class="bi bi-telephone me-2 fs-5"></i>call us +91
-                            9903565655</a>
+                                9163715179</a>
                     </li>
                 </ul>
             </div>
